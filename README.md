@@ -33,6 +33,10 @@ The CLI must support workflows around troubleshooting and debugging to help when
 * **Deliver applications continuously.**
 While the ECS CLI can be used to manually deploy changes to an application, we always help customers to move to CI/CD by helping them set up and manage pipelines.
 
+## Getting Help
+
+While we're happy to use our GitHub issues queue as a place to report bugs or log feature requests, if you're looking for help or just want to chat about any problems you're having, join the ECS CLI V2 community on [Gitter](https://gitter.im/aws/amazon-ecs-cli-v2). 
+
 #### Security disclosures
 
 If you think you’ve found a potential security issue, please do not post it in the Issues. Instead, please follow the instructions [here](https://aws.amazon.com/security/vulnerability-reporting/) or email AWS security directly at [aws-security@amazon.com](mailto:aws-security@amazon.com).
