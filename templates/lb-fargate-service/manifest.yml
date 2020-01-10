@@ -30,7 +30,7 @@ count: {{.Count}}
 #  LOG_LEVEL: info
 #
 #secrets:                      # Pass secrets from AWS Systems Manager (SSM) Parameter Store.
-#  GITHUB_TOKEN: GITHUB_TOKEN  # The key is the name of the environment variable, the value is the name of the SSM parameter.
+#  GITHUB_TOKEN: "arn:aws:secretsmanager:us-east-1:awsExampleAccountID:secret:GITHUB_TOKEN_secret_name:awsExampleParameter"  # The key is the name of the environment variable, the value is the name of the SSM parameter.
 #
 #scaling:                      # Optional configuration for scaling your service.
 #  minCount: 1                   # Minimum number of tasks that should be running in your service.
